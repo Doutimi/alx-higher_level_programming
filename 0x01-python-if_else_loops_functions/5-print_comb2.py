@@ -5,4 +5,3 @@ for x in range(0, 100):
         print("{}".format(x))
     else:
     print("{:02d},".format(x), end=" ")
-print()
