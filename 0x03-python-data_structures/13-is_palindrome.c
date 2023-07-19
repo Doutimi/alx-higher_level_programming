@@ -5,8 +5,9 @@ int is_palindrome(listint_t **head)
 {
 listint_t *current;
 int length = 0;
-int content[length];
+int content;
 int start = 0;
+int a, end;
 
 if (head == NULL || *head == NULL)
 	return (1);
@@ -19,7 +20,7 @@ while (current != NULL)
 	}
 
 current = *head;
-int a = 0;
+a = 0;
 while (current != NULL)
 	{
 	content[a] = current->n;
@@ -27,7 +28,7 @@ while (current != NULL)
 	a++;
 	}
 
-int end = length - 1;
+end = length - 1;
 while (start < end)
 	{
 	if (content[start] != content[end])
