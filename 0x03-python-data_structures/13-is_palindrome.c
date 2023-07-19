@@ -3,11 +3,15 @@
 
 int is_palindrome(listint_t **head)
 {
+listint_t *current;
+int length = 0;
+int content[length];
+int start = 0;
+
 if (head == NULL || *head == NULL)
 	return (1);
 
-listint_t *current = *head;
-int length = 0;
+current = *head;
 while (current != NULL)
 	{
 	current = current->next;
@@ -15,7 +19,6 @@ while (current != NULL)
 	}
 
 current = *head;
-int content[length];
 int a = 0;
 while (current != NULL)
 	{
@@ -24,7 +27,6 @@ while (current != NULL)
 	a++;
 	}
 
-int start = 0;
 int end = length - 1;
 while (start < end)
 	{
