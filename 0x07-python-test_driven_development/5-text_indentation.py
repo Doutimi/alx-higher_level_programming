@@ -1,4 +1,4 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 """
 text_indentation module
 Function that print a text with new lines after using '.?:'
