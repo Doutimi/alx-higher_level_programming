@@ -33,7 +33,7 @@ It works when using type()
 
 ::
 
-    >>> my_list = MyList([1, 2, 3])
+    >>> my_list = MyList(1, 2, 3)
     >>> print(my_list)
     [1, 2, 3]
 
