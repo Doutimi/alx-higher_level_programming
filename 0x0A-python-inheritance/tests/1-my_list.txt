@@ -74,6 +74,13 @@ It works when appending a list
     >>> my_list.print_sorted()
     [1, 2, 3, 4, 5]
 
+The order of the original list is not altered after a call to the method.
+
+::
+
+    >>> print(my_list)
+    [1, 4, 2, 3, 5]
+
 TypeError print_sorted when method is given 1 argument
 
 ::
