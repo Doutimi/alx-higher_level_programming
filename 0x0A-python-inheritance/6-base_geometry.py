@@ -7,9 +7,7 @@ class BaseGeometry:
     """Represent a Base Geometry class"""
     pass
 
-    # Defines the area method which will raise an exception
     def area(self):
-
-        """Raise an Exception to notify that the method is
+        """Raises an Exception to notify that the method is
         not implemented yet."""
         raise Exception("area() is not implemented")
